@@ -49,7 +49,7 @@ class EdgeChromiumDriverManager(DriverManager):
             version: Optional[str] = None,
             name: str = "edgedriver",
             url: str = "https://msedgedriver.microsoft.com",
-            latest_release_url: str = "https://msedgedriver.microsoft.com/LATEST_RELEASE",
+            latest_release_url: str = "https://msedgedriver.microsoft.com/LATEST_STABLE",
             download_manager: Optional[DownloadManager] = None,
             cache_manager: Optional[DriverCacheManager] = None,
             os_system_manager: Optional[OperationSystemManager] = None
